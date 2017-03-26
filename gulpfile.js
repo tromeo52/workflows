@@ -6,13 +6,13 @@ var browserify = require('gulp-browserify');
 var compass = require('gulp-compass');
 
 
-var coffeeSources = ['components/coffee/*.coffee'];
 var jsSources = [
     'components/scripts/rclick.js',
     'components/scripts/pixgrid.js',
     'components/scripts/tagline.js',
     'components/scripts/template.js'
 ];
+var coffeeSources = ['components/coffee/*.coffee']; 
 var sassSources = ['components/sass/style.scss'];
 
 gulp.task('coffee', function () {
@@ -42,4 +42,8 @@ gulp.task('compass', function(){
     .on('error', gutil.log)
     .pipe(gulp.dest('builds/development/css'))
 });
+
+gulp.task('default', ['coffee', 'js', 'compass']);
+
+
 
