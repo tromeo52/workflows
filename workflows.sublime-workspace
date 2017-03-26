@@ -19,7 +19,16 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 307,
+				"buffer_size": 560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 733,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -46,14 +55,14 @@
 		[
 			[
 				"p",
-				"Package Control: List Packages"
+				"Package Control: Disable Package"
 			],
 			[
 				"t",
 				"Terminal: Open"
 			]
 		],
-		"width": 485.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -73,9 +82,13 @@
 	},
 	"expanded_folders":
 	[
-		"/srv/http/workflows",
-		"/srv/http/workflows/builds",
-		"/srv/http/workflows/builds/development"
+		"/Library/WebServer/Documents/workflows",
+		"/Library/WebServer/Documents/workflows/builds",
+		"/Library/WebServer/Documents/workflows/builds/development",
+		"/Library/WebServer/Documents/workflows/components",
+		"/Library/WebServer/Documents/workflows/components/coffee",
+		"/Library/WebServer/Documents/workflows/components/sass",
+		"/Library/WebServer/Documents/workflows/components/scripts"
 	],
 	"file_history":
 	[
@@ -117,7 +130,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -126,7 +139,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 307,
+						"buffer_size": 560,
 						"regions":
 						{
 						},
@@ -139,6 +152,14 @@
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "json"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Bluish.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
@@ -148,11 +169,48 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "builds/development/index.html",
 					"semi_transient": false,
 					"settings":
@@ -170,6 +228,15 @@
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 398,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"color_scheme": "Packages/User/Color Highlighter/themes/Bluish.tmTheme",
 							"open_with_edit": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -180,7 +247,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -217,6 +284,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
